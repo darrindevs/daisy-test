@@ -1,0 +1,12 @@
+to install https://daisyui.com/docs/install/
+
+1. Install daisyUI:
+
+npm i -D daisyui@latest
+
+2. Then add daisyUI to your tailwind.config.js files:
+
+module.exports = {
+  //...
+  plugins: [require("daisyui")],
+}
